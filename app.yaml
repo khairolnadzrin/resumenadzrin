@@ -5,10 +5,10 @@ api_version: 1
 
 handlers:
 - url: /assets
-	static_dir: assets/img
+	static_dir: img
 - url: /assets
-	static_dir: assets/js
+	static_dir: js
 - url: /assets
-	ststic_dir: assets/css
+	ststic_dir: css
 - url: /.*
   script: index.php
